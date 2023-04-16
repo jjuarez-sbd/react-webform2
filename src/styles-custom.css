@@ -1,0 +1,110 @@
+input[type="email"],
+input[type="text"],
+textarea {
+  width: 700px;
+}
+
+label {
+  margin-top: 1rem;
+}
+
+label.checkbox {
+  font-weight: normal;
+}
+
+button[type="submit"] {
+  width: 400px;
+  margin-top: 1rem;
+  border: 0.01px solid #d4d7dc;
+}
+
+/* form centering 
+––––––––––––––––––––––––––––––––– */
+
+.form-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+/* Viewport sizing
+––––––––––––––––––––––––––––––––– */
+
+.well-container {
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+}
+
+@media screen and (min-width: 320px) {
+  input[type="email"],
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 290px;
+  }
+  button[type="submit"] {
+    width: 290px;
+  }
+  .well-container {
+    margin-left: -13px;
+    margin-right: -13px;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  }
+}
+
+@media screen and (min-width: 400px) {
+  input[type="email"],
+  input[type="text"],
+  input[type="number"],
+  textarea,
+  select {
+    width: 360px;
+  }
+  button[type="submit"] {
+    width: 360px;
+  }
+  .well-container {
+    margin-left: -19px;
+    margin-right: -19px;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  input[type="email"],
+  input[type="text"],
+  input[type="number"],
+  textarea,
+  select {
+    width: 400px;
+  }
+  button[type="submit"] {
+    width: 400px;
+  }
+  .well-container {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  input[type="email"],
+  input[type="text"],
+  input[type="number"],
+  textarea,
+  select {
+    width: 500px;
+  }
+  button[type="submit"] {
+    width: 500px;
+  }
+  .well-container {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
